@@ -1,0 +1,19 @@
+2020-03-30 15:11:19.576  INFO 16916 --- [restartedMain] f.u.mk.elklogging.ElkLoggingApplication  : Starting ElkLoggingApplication on DESKTOP-7B09IF2 with PID 16916 (C:\Users\Pc\IntelliJIDEAProjects\elk-logging\target\classes started by Pc in C:\Users\Pc\IntelliJIDEAProjects\elk-logging)
+2020-03-30 15:11:19.678  INFO 16916 --- [restartedMain] f.u.mk.elklogging.ElkLoggingApplication  : No active profile set, falling back to default profiles: default
+2020-03-30 15:11:19.785  INFO 16916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-30 15:11:19.785  INFO 16916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-30 15:11:21.195  INFO 16916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-30 15:11:21.212  INFO 16916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-30 15:11:21.212  INFO 16916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 15:11:21.383  INFO 16916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-30 15:11:21.384  INFO 16916 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1598 ms
+2020-03-30 15:11:21.636  INFO 16916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 15:11:21.777  INFO 16916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-30 15:11:21.822  INFO 16916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-30 15:11:21.824  INFO 16916 --- [restartedMain] f.u.mk.elklogging.ElkLoggingApplication  : Started ElkLoggingApplication in 3.153 seconds (JVM running for 8.435)
+2020-03-30 15:14:36.929  INFO 16916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 15:14:38.008  INFO 16916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-30 15:14:38.145  INFO 16916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 135 ms
+2020-03-30 15:14:38.311  INFO 16916 --- [http-nio-8080-exec-1] f.u.m.e.Controller.ELKController         : Welcome to ELK Mon Mar 30 15:14:38 CEST 2020
+2020-03-30 15:14:45.005  INFO 16916 --- [http-nio-8080-exec-4] f.u.m.e.Controller.ELKController         : Welcome to ELK Mon Mar 30 15:14:45 CEST 2020
+2020-03-30 15:16:10.899  INFO 16916 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
